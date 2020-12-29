@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-<!--继承-->
+    <!--继承-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -21,13 +21,13 @@
     </properties>
 
     <dependencies>
-<!--使用springboot-->
+        <!--使用springboot-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
-<!--开启测试-->
+        <!--开启测试-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -40,7 +40,7 @@
             </exclusions>
         </dependency>
 
-<!--开启web支持-->
+        <!--开启web支持-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -48,13 +48,13 @@
             <scope>compile</scope>
         </dependency>
 
-<!--开启thymeleaf动态模板功能-->
+        <!--开启thymeleaf动态模板功能-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
-<!--开启热启动-->
+        <!--开启热启动-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -62,43 +62,43 @@
             <scope>true</scope>
         </dependency>
 
-<!--在java9以后的版本中使用@PostConstruct和@ProDestroy两个注解时候需要引入的依赖-->
+        <!--在java9以后的版本中使用@PostConstruct和@ProDestroy两个注解时候需要引入的依赖-->
         <dependency>
             <groupId>javax.annotation</groupId>
             <artifactId>javax.annotation-api</artifactId>
         </dependency>
 
-<!--访问数据库的ORM框架-->
+        <!--访问数据库的ORM框架-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
-<!--mysql数据库的驱动-->
+        <!--mysql数据库的驱动-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-<!--通过注解消除java类中臃肿的模板代码-->
+        <!--通过注解消除java类中臃肿的模板代码-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
 
-<!--使用内置的h2数据库-->
+        <!--使用内置的h2数据库-->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
         </dependency>
 
-<!--查看springboot的工作过程-->
+        <!--查看springboot的工作过程-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-<!--配合ConfigurationProperties一起使用-->
+        <!--配合ConfigurationProperties一起使用-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
